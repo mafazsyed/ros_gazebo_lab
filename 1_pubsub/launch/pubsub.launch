@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <node pkg="week1_pubsub" type="publisher.py" name="pub_node" output="screen" />
+  <node pkg="week1_pubsub" type="subscriber.py" name="sub_node" output="screen" />
+</launch>
