@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <node pkg="week2_navigation" type="move_circle.py" name="nav_publisher" output="screen" />
+  <!-- <node pkg="week2_navigation" type="move_square.py" name="move_square" output="screen" /> -->
+  <node pkg="week2_navigation" type="odom_subscriber.py" name="odom_subscriber" output="screen" />
+</launch>
